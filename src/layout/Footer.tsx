@@ -81,7 +81,7 @@ const Footer = () => {
                 <input
                   type="text"
                   placeholder="Enter your email"
-                  className="bg-white w-8/12 border-[1px] border-[#00000012] rounded-l-[8px] py-[14px] pl-3"
+                  className="bg-white w-8/12 border-[1px] border-[#00000012] rounded-l-[8px] py-[14px] pl-3 focus:outline-[1px] focus:outline-[#00000012]  "
                 />
                 <button className="bg-[#F5AA40] rounded-r-[8px] w-4/12 text-white text-xs">
                   Validate

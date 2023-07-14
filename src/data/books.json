@@ -1,0 +1,290 @@
+[
+  {
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "genre": "Fiction",
+    "publication_date": "July 11, 1960",
+    "book_img_url": "https://example.com/to_kill_a_mockingbird.jpg",
+    "rating": 4.5,
+    "price": 10.99
+  },
+  {
+    "title": "1984",
+    "author": "George Orwell",
+    "genre": "Fiction",
+    "publication_date": "June 8, 1949",
+    "book_img_url": "https://example.com/1984.jpg",
+    "rating": 4.7,
+    "price": 9.99
+  },
+  {
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "genre": "Fiction",
+    "publication_date": "April 10, 1925",
+    "book_img_url": "https://example.com/the_great_gatsby.jpg",
+    "rating": 4.2,
+    "price": 12.99
+  },
+  {
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "genre": "Fiction",
+    "publication_date": "January 28, 1813",
+    "book_img_url": "https://example.com/pride_and_prejudice.jpg",
+    "rating": 4.8,
+    "price": 11.99
+  },
+  {
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "genre": "Fantasy",
+    "publication_date": "September 21, 1937",
+    "book_img_url": "https://example.com/the_hobbit.jpg",
+    "rating": 4.6,
+    "price": 14.99
+  },
+  {
+    "title": "Harry Potter and the Sorcerer's Stone",
+    "author": "J.K. Rowling",
+    "genre": "Fantasy",
+    "publication_date": "June 26, 1997",
+    "book_img_url": "https://example.com/harry_potter_sorcerers_stone.jpg",
+    "rating": 4.9,
+    "price": 13.99
+  },
+  {
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "genre": "Fiction",
+    "publication_date": "July 16, 1951",
+    "book_img_url": "https://example.com/the_catcher_in_the_rye.jpg",
+    "rating": 4.3,
+    "price": 10.99
+  },
+  {
+    "title": "The Lord of the Rings",
+    "author": "J.R.R. Tolkien",
+    "genre": "Fantasy",
+    "publication_date": "July 29, 1954",
+    "book_img_url": "https://example.com/the_lord_of_the_rings.jpg",
+    "rating": 4.7,
+    "price": 17.99
+  },
+  {
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "genre": "Fiction",
+    "publication_date": "July 11, 1960",
+    "book_img_url": "https://example.com/to_kill_a_mockingbird.jpg",
+    "rating": 4.5,
+    "price": 10.99
+  },
+  {
+    "title": "1984",
+    "author": "George Orwell",
+    "genre": "Fiction",
+    "publication_date": "June 8, 1949",
+    "book_img_url": "https://example.com/1984.jpg",
+    "rating": 4.7,
+    "price": 9.99
+  },
+  {
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "genre": "Fiction",
+    "publication_date": "April 10, 1925",
+    "book_img_url": "https://example.com/the_great_gatsby.jpg",
+    "rating": 4.2,
+    "price": 12.99
+  },
+  {
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "genre": "Fiction",
+    "publication_date": "January 28, 1813",
+    "book_img_url": "https://example.com/pride_and_prejudice.jpg",
+    "rating": 4.8,
+    "price": 11.99
+  },
+  {
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "genre": "Fantasy",
+    "publication_date": "September 21, 1937",
+    "book_img_url": "https://example.com/the_hobbit.jpg",
+    "rating": 4.6,
+    "price": 14.99
+  },
+  {
+    "title": "Harry Potter and the Sorcerer's Stone",
+    "author": "J.K. Rowling",
+    "genre": "Fantasy",
+    "publication_date": "June 26, 1997",
+    "book_img_url": "https://example.com/harry_potter_sorcerers_stone.jpg",
+    "rating": 4.9,
+    "price": 13.99
+  },
+  {
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "genre": "Fiction",
+    "publication_date": "July 16, 1951",
+    "book_img_url": "https://example.com/the_catcher_in_the_rye.jpg",
+    "rating": 4.3,
+    "price": 10.99
+  },
+  {
+    "title": "The Lord of the Rings",
+    "author": "J.R.R. Tolkien",
+    "genre": "Fantasy",
+    "publication_date": "July 29, 1954",
+    "book_img_url": "https://example.com/the_lord_of_the_rings.jpg",
+    "rating": 4.7,
+    "price": 17.99
+  },
+  {
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "genre": "Fiction",
+    "publication_date": "July 11, 1960",
+    "book_img_url": "https://example.com/to_kill_a_mockingbird.jpg",
+    "rating": 4.5,
+    "price": 10.99
+  },
+  {
+    "title": "1984",
+    "author": "George Orwell",
+    "genre": "Fiction",
+    "publication_date": "June 8, 1949",
+    "book_img_url": "https://example.com/1984.jpg",
+    "rating": 4.7,
+    "price": 9.99
+  },
+  {
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "genre": "Fiction",
+    "publication_date": "April 10, 1925",
+    "book_img_url": "https://example.com/the_great_gatsby.jpg",
+    "rating": 4.2,
+    "price": 12.99
+  },
+  {
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "genre": "Fiction",
+    "publication_date": "January 28, 1813",
+    "book_img_url": "https://example.com/pride_and_prejudice.jpg",
+    "rating": 4.8,
+    "price": 11.99
+  },
+  {
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "genre": "Fantasy",
+    "publication_date": "September 21, 1937",
+    "book_img_url": "https://example.com/the_hobbit.jpg",
+    "rating": 4.6,
+    "price": 14.99
+  },
+  {
+    "title": "Harry Potter and the Sorcerer's Stone",
+    "author": "J.K. Rowling",
+    "genre": "Fantasy",
+    "publication_date": "June 26, 1997",
+    "book_img_url": "https://example.com/harry_potter_sorcerers_stone.jpg",
+    "rating": 4.9,
+    "price": 13.99
+  },
+  {
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "genre": "Fiction",
+    "publication_date": "July 16, 1951",
+    "book_img_url": "https://example.com/the_catcher_in_the_rye.jpg",
+    "rating": 4.3,
+    "price": 10.99
+  },
+  {
+    "title": "The Lord of the Rings",
+    "author": "J.R.R. Tolkien",
+    "genre": "Fantasy",
+    "publication_date": "July 29, 1954",
+    "book_img_url": "https://example.com/the_lord_of_the_rings.jpg",
+    "rating": 4.7,
+    "price": 17.99
+  },
+  {
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "genre": "Fiction",
+    "publication_date": "July 11, 1960",
+    "book_img_url": "https://example.com/to_kill_a_mockingbird.jpg",
+    "rating": 4.5,
+    "price": 10.99
+  },
+  {
+    "title": "1984",
+    "author": "George Orwell",
+    "genre": "Fiction",
+    "publication_date": "June 8, 1949",
+    "book_img_url": "https://example.com/1984.jpg",
+    "rating": 4.7,
+    "price": 9.99
+  },
+  {
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "genre": "Fiction",
+    "publication_date": "April 10, 1925",
+    "book_img_url": "https://example.com/the_great_gatsby.jpg",
+    "rating": 4.2,
+    "price": 12.99
+  },
+  {
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "genre": "Fiction",
+    "publication_date": "January 28, 1813",
+    "book_img_url": "https://example.com/pride_and_prejudice.jpg",
+    "rating": 4.8,
+    "price": 11.99
+  },
+  {
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "genre": "Fantasy",
+    "publication_date": "September 21, 1937",
+    "book_img_url": "https://example.com/the_hobbit.jpg",
+    "rating": 4.6,
+    "price": 14.99
+  },
+  {
+    "title": "Harry Potter and the Sorcerer's Stone",
+    "author": "J.K. Rowling",
+    "genre": "Fantasy",
+    "publication_date": "June 26, 1997",
+    "book_img_url": "https://example.com/harry_potter_sorcerers_stone.jpg",
+    "rating": 4.9,
+    "price": 13.99
+  },
+  {
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "genre": "Fiction",
+    "publication_date": "July 16, 1951",
+    "book_img_url": "https://example.com/the_catcher_in_the_rye.jpg",
+    "rating": 4.3,
+    "price": 10.99
+  },
+  {
+    "title": "The Lord of the Rings",
+    "author": "J.R.R. Tolkien",
+    "genre": "Fantasy",
+    "publication_date": "July 29, 1954",
+    "book_img_url": "https://example.com/the_lord_of_the_rings.jpg",
+    "rating": 4.7,
+    "price": 17.99
+  }
+]
