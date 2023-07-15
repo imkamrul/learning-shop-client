@@ -4,13 +4,13 @@ import Header from "./Header";
 
 const MainLayout = () => {
   return (
-    <body>
+    <>
       <Header />
       <main className="">
         <Outlet />
       </main>
       <Footer />
-    </body>
+    </>
   );
 };
 

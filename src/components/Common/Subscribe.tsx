@@ -31,7 +31,7 @@ const Subscribe = () => {
           </div>
           <div className="w-5/12 relative">
             <img
-              src="./subscribe.png"
+              src="../../../public/subscribe.png"
               alt=""
               className="w-full object-cover absolute right-0 top-0 translate-y-[-30%]"
             />
