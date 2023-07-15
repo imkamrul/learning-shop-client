@@ -1,12 +1,13 @@
 import { createBrowserRouter } from "react-router-dom";
 import App from "../app";
-import Books from "../page/books";
-import Cart from "../page/cart";
-import Home from "../page/home";
-import Login from "../page/login";
-import NotFound from "../page/notFound";
-import Register from "../page/register";
-import SingleBook from "../page/singleBook";
+import BookDetailsPage from "../page/BookDetailsPage";
+import BookPage from "../page/BookPage";
+import CartPage from "../page/CartPage";
+import HomePage from "../page/HomePage";
+import LoginPage from "../page/LoginPage";
+import PageNotFount from "../page/PageNotFount";
+import RegisterPage from "../page/Registerpage";
+import ResetPasswordPage from "../page/ResetPasswordPage";
 const routes = createBrowserRouter([
   {
     path: "/",
@@ -14,15 +15,16 @@ const routes = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <Home />,
+        element: <HomePage />,
       },
-      { path: "/books", element: <Books /> },
-      { path: "/books/:id", element: <SingleBook /> },
-      { path: "/cart", element: <Cart /> },
+      { path: "/books", element: <BookPage /> },
+      { path: "/books/:id", element: <BookDetailsPage /> },
+      { path: "/cart", element: <CartPage /> },
+      { path: "/login", element: <LoginPage /> },
+      { path: "/register", element: <RegisterPage /> },
+      { path: "/password-reset", element: <ResetPasswordPage /> },
     ],
   },
-  { path: "/login", element: <Login /> },
-  { path: "/register", element: <Register /> },
-  { path: "*", element: <NotFound /> },
+  { path: "*", element: <PageNotFount /> },
 ]);
 export default routes;

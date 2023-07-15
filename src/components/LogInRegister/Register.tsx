@@ -1,5 +1,5 @@
 const Register = () => {
-  return <div>register.tsx</div>;
+  return <div>register</div>;
 };
 
 export default Register;

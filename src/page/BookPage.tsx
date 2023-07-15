@@ -1,7 +1,7 @@
 import Searching from "../components/Books/Searching";
 import Subscribe from "../components/Common/Subscribe";
 
-const Books = () => {
+const BookPage = () => {
   return (
     <>
       <Searching />
@@ -10,4 +10,4 @@ const Books = () => {
   );
 };
 
-export default Books;
+export default BookPage;

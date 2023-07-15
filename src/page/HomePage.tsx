@@ -3,7 +3,7 @@ import HomeHero from "../components/Home/HomeHero";
 import Products from "../components/Home/Products";
 import { useAppSelector } from "../redux/hooks";
 
-const Home = () => {
+const HomePage = () => {
   const { user } = useAppSelector((state) => state.user);
   console.log("user :", user);
   return (
@@ -15,4 +15,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default HomePage;
