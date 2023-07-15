@@ -225,3 +225,16 @@ export const Search = () => {
     </svg>
   );
 };
+export const YellowCircle = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="46"
+      height="92"
+      viewBox="0 0 46 92"
+      fill="none"
+    >
+      <circle cy="46" r="46" fill="#F5AA40" />
+    </svg>
+  );
+};

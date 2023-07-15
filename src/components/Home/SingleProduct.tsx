@@ -26,8 +26,7 @@ const SingleProduct: React.FC<any> = ({ content }) => {
                 rating={content?.rating}
                 starRatedColor="#F58634"
                 numberOfStars={5}
-                name="rating"
-                starDimension="30px"
+                starDimension="25px"
                 starSpacing="2px"
               />
               <Link
