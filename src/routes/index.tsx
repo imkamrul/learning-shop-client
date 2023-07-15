@@ -5,9 +5,10 @@ import BookPage from "../page/BookPage";
 import CartPage from "../page/CartPage";
 import HomePage from "../page/HomePage";
 import LoginPage from "../page/LoginPage";
-import PageNotFount from "../page/PageNotFount";
-import RegisterPage from "../page/Registerpage";
+import PageNotFound from "../page/PageNotFound";
+import RegisterPage from "../page/RegisterPage";
 import ResetPasswordPage from "../page/ResetPasswordPage";
+import UserPage from "../page/UserPage";
 const routes = createBrowserRouter([
   {
     path: "/",
@@ -23,8 +24,9 @@ const routes = createBrowserRouter([
       { path: "/login", element: <LoginPage /> },
       { path: "/register", element: <RegisterPage /> },
       { path: "/password-reset", element: <ResetPasswordPage /> },
+      { path: "/user", element: <UserPage /> },
     ],
   },
-  { path: "*", element: <PageNotFount /> },
+  { path: "*", element: <PageNotFound /> },
 ]);
 export default routes;
