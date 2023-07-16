@@ -58,6 +58,26 @@ const bookApi = api.injectEndpoints({
       }),
       invalidatesTags: ["reviews"],
     }),
+    AddList: builder.mutation({
+      query: ({ data, token }) => ({
+        url: `/whish-list`,
+        method: "POST",
+        body: data,
+        headers: {
+          Authorization: `Bearer ${token}`,
+        },
+      }),
+    }),
+    getList: builder.query({
+      query: ({ id, token }) => ({
+        url: `/whish-list/${id}`,
+        method: "GET",
+
+        headers: {
+          Authorization: `Bearer ${token}`,
+        },
+      }),
+    }),
   }),
 });
 
@@ -68,4 +88,6 @@ export const {
   useDeleteBookMutation,
   useUpdateBookMutation,
   usePostReviewMutation,
+  useAddListMutation,
+  useGetListQuery,
 } = bookApi;

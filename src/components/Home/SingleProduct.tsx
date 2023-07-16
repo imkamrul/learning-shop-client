@@ -1,8 +1,29 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import StarRatings from "react-star-ratings";
+import { useAddListMutation } from "../../redux/api/booksApiSlice";
+import { useAppSelector } from "../../redux/hooks";
+import notify from "../../utils/notify";
 import { IBook } from "../Common/Interface";
-
+import { LoadingIconGray } from "../SVG";
 const SingleProduct = ({ content }: { content: IBook }) => {
+  const [loading, setLoading] = useState(false);
+  const [AddList] = useAddListMutation();
+  const { user, token } = useAppSelector((state) => state.user);
+  const handleAddList = async () => {
+    setLoading(true);
+    const result = await AddList({
+      data: { book: content?._id, buyer: user?.id },
+      token,
+    });
+    if ("data" in result && result.data?.success) {
+      notify("success", "Book added to wish list");
+      setLoading(false);
+    } else {
+      notify("error", "Failed to add book to wish list");
+      setLoading(false);
+    }
+  };
   return (
     <>
       <div className="w-4/12">
@@ -51,6 +72,18 @@ const SingleProduct = ({ content }: { content: IBook }) => {
                 Details
               </Link>
             </div>
+            {loading ? (
+              <LoadingIconGray className="w-[50px]" />
+            ) : (
+              <button
+                onClick={() => {
+                  handleAddList();
+                }}
+                className="text-center w-full mt-4 py-2 rounded block bg-indigo-600 text-white"
+              >
+                Add To whish list
+              </button>
+            )}
           </div>
         </div>
       </div>
