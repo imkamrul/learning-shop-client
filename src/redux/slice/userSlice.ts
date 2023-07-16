@@ -1,16 +1,10 @@
 import type { PayloadAction } from "@reduxjs/toolkit";
 import { createSlice } from "@reduxjs/toolkit";
-interface IUserState {
-  user: {
-    email: string | null;
-    fullName?: string | null;
-    role: string | null;
-  };
-  token: string | null;
-}
+import { IUserState } from "../../components/Common/Interface";
 
 const initialState: IUserState = {
   user: {
+    id: null,
     fullName: null,
     role: null,
     email: null,

@@ -21,8 +21,8 @@ const MainLayout = () => {
       });
       const data = await response.json();
       if (data?.success === true) {
-        const { email, role, username } = data.data;
-        dispatch(setUser({ email, role, username }));
+        const { email, role, username, _id } = data.data;
+        dispatch(setUser({ email, role, username, id: _id }));
       }
     } catch (error) {}
   };

@@ -1,11 +1,8 @@
 import Subscribe from "../components/Common/Subscribe";
 import HomeHero from "../components/Home/HomeHero";
 import Products from "../components/Home/Products";
-import { useAppSelector } from "../redux/hooks";
 
 const HomePage = () => {
-  const { user } = useAppSelector((state) => state.user);
-  console.log("user :", user);
   return (
     <>
       <HomeHero />

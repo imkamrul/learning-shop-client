@@ -23,7 +23,7 @@ const Products = () => {
           <div className="flex flex-wrap">
             {isLoading && <LoadingIconGray />}
             {!isLoading &&
-              data?.data?.slice(0, 6).map((item: IBook, index: number) => {
+              data?.data?.map((item: IBook, index: number) => {
                 return <SingleProduct key={index} content={item} />;
               })}
           </div>
