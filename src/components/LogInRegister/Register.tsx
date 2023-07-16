@@ -60,7 +60,7 @@ const Register = () => {
         <div className="container">
           <div className="w-8/12 bg-[#FFF8F8] rounded mx-auto shadow p-[50px]">
             <h4 className="text-center text-2xl font-medium">
-              Welcome to Walcart! Please Sign Un
+              Welcome! Please Sign Un
             </h4>
             <div className="py-12 flex flex-wrap justify-between">
               <div className="w-6/12 pr-3">
@@ -105,7 +105,7 @@ const Register = () => {
               </div>
             </div>
             <p className="text-center text-lg ">
-              Have an Walcart account?{" "}
+              Have an account?{" "}
               <Link
                 to={"/login"}
                 className="text-[#214497] font-bold hover:underline"

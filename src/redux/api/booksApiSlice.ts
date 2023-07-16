@@ -78,6 +78,16 @@ const bookApi = api.injectEndpoints({
         },
       }),
     }),
+    updateStatus: builder.mutation({
+      query: ({ id, data, token }) => ({
+        url: `/whish-list/${id}`,
+        method: "PATCH",
+        body: data,
+        headers: {
+          Authorization: `Bearer ${token}`,
+        },
+      }),
+    }),
   }),
 });
 
@@ -90,4 +100,5 @@ export const {
   usePostReviewMutation,
   useAddListMutation,
   useGetListQuery,
+  useUpdateStatusMutation,
 } = bookApi;
