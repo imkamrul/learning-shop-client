@@ -6,6 +6,6 @@ export const api = createApi({
     // baseUrl: "http://localhost:5000/api/v1",
     baseUrl: "https://book-store-two-vert.vercel.app/api/v1",
   }),
-  tagTypes: ["reviews", "books", "singleBook"],
+  tagTypes: ["reviews", "books", "singleBook", "status"],
   endpoints: () => ({}),
 });

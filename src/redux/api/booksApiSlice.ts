@@ -77,6 +77,7 @@ const bookApi = api.injectEndpoints({
           Authorization: `Bearer ${token}`,
         },
       }),
+      providesTags: ["status"],
     }),
     updateStatus: builder.mutation({
       query: ({ id, data, token }) => ({
@@ -87,6 +88,7 @@ const bookApi = api.injectEndpoints({
           Authorization: `Bearer ${token}`,
         },
       }),
+      invalidatesTags: ["status"],
     }),
   }),
 });
