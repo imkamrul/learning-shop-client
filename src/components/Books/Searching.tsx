@@ -1,6 +1,9 @@
+import { useAppDispatch } from "../../redux/hooks";
+import { setBookName } from "../../redux/slice/bookSlice";
 import { Search } from "../SVG";
 
 const Searching = () => {
+  const dispatch = useAppDispatch();
   return (
     <>
       <section className="bg-[#FFF1EE]">
@@ -13,6 +16,11 @@ const Searching = () => {
               <Search />
             </span>
             <input
+              onChange={(e) => {
+                dispatch(
+                  setBookName(e.target.value.length ? e.target.value : "All")
+                );
+              }}
               type="text"
               placeholder="Search Online Course"
               className="bg-white w-full border-[1px] border-[#00000012] rounded-l-[8px] py-[25px] pl-[74px] focus:outline-[1px] focus:outline-[#00000012]  shadow-[0px_27.48235511779785px_34.35294723510742px_0px_rgba(162,162,162,0.10)] pr-[190px]"

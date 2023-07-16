@@ -30,7 +30,7 @@ const HomeHero = () => {
           </div>
           <div className="w-1/2 flex justify-end items-end pl-[50px]">
             <img
-              src="./HomeHero.png"
+              src="https://res.cloudinary.com/dnlnzptzc/image/upload/v1689523386/HomeHero.png"
               alt=""
               className="h-[550px] object-cover"
             />

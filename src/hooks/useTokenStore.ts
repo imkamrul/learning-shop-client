@@ -6,5 +6,8 @@ export const useTokenStore = () => {
     const token = localStorage.getItem("token");
     return token ? JSON.parse(token) : null;
   };
-  return { setToken, getToken };
+  const removeToken = () => {
+    localStorage.removeItem("token");
+  };
+  return { setToken, getToken, removeToken };
 };

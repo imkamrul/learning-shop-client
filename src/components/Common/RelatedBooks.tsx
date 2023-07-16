@@ -1,6 +1,8 @@
-import data from "../../data/books.json";
+import { useGetBooksQuery } from "../../redux/api/booksApiSlice";
 import SingleProduct from "../Home/SingleProduct";
+import { IBook } from "./Interface";
 const RelatedBooks = () => {
+  const { data } = useGetBooksQuery(undefined);
   return (
     <>
       <section>
@@ -9,7 +11,7 @@ const RelatedBooks = () => {
             You May Also Like
           </p>
           <div className="flex flex-wrap">
-            {data.slice(0, 3).map((item, index) => {
+            {data?.data?.slice(0, 3).map((item: IBook, index: number) => {
               return <SingleProduct key={index} content={item} />;
             })}
           </div>

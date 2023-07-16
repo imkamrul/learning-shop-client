@@ -29,7 +29,7 @@ const BookDetails = () => {
         <div className="container flex flex-wrap py-20">
           <div className="w-5/12">
             <img
-              src="../../../public/book.png"
+              src={singleBook?.book_img}
               alt=""
               className="w-[370px] object-cover"
             />
@@ -63,9 +63,6 @@ const BookDetails = () => {
               <span className="text-[#F58634] text-2xl font-extrabold pr-3">
                 ${singleBook?.price}
               </span>
-              {/* <span className="text-[#000] text-sm opacity-50 line-through">
-                ${singleBook?.price! + Math.floor(Math.random() * 20) + 1}
-              </span> */}
             </p>
             <div className="flex  items-center">
               <StarRatings

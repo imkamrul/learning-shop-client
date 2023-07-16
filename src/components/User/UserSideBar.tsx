@@ -1,23 +1,26 @@
+import { useAppSelector } from "../../redux/hooks";
+
 const UserSideBar = () => {
+  const { user } = useAppSelector((state) => state.user);
   const userProfileMenuList = [
     "Manage My Account",
     "My Order",
     "My Wishlist",
-    "My Address",
-    "My Reviews",
-    "My Profile",
-    "My Coupons",
-    "My Referrals",
-    "Logout",
+    // "My Address",
+    // "My Reviews",
+    // "My Profile",
+    // "My Coupons",
+    // "My Referrals",
+    // "Logout",
   ];
   return (
     <>
       <div className="bg-[#FFF8F8] py-[20px] shadow">
         <div className="flex flex-col justify-center items-center  gap-y-[10px]">
           <img src="../../../public/user.png" alt="" />
-          <p className="text-xl font-medium ">Abdullah Al Mahmud</p>
-          <p className="text-lg font-medium">mahmudcse42@gmail.com</p>
-          <p className="text-lg font-medium">01830663091</p>
+          <p className="text-xl font-medium ">Kamrul Hasan</p>
+          <p className="text-lg font-medium">{user?.email}</p>
+          <p className="text-lg font-medium capitalize">{user?.role}</p>
         </div>
         <ul className="flex flex-col gap-y-2 px-[15px] pt-[45px]">
           {userProfileMenuList.map((item, index) => (

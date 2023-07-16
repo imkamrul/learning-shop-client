@@ -14,16 +14,16 @@ const Products = () => {
               Trending Course
             </p>
             <Link
-              to="/"
+              to="/books"
               className="border-[1px] rounded border-[#F58634] text-[#F18434] text-lg font-semibold px-11 py-1"
             >
               View All
             </Link>
           </div>
           <div className="flex flex-wrap">
-            {isLoading && <LoadingIconGray />}
+            {isLoading && <LoadingIconGray className="w-[100px]" />}
             {!isLoading &&
-              data?.data?.map((item: IBook, index: number) => {
+              data?.data?.slice(0, 6).map((item: IBook, index: number) => {
                 return <SingleProduct key={index} content={item} />;
               })}
           </div>
