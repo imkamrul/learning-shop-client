@@ -1,7 +1,10 @@
 import { Link } from "react-router-dom";
-import data from "../../data/books.json";
+import { useGetBooksQuery } from "../../redux/api/booksApiSlice";
+import { IBook } from "../Common/Interface";
+import { LoadingIconGray } from "../SVG";
 import SingleProduct from "./SingleProduct";
 const Products = () => {
+  const { data, isLoading } = useGetBooksQuery(undefined);
   return (
     <>
       <section>
@@ -18,9 +21,11 @@ const Products = () => {
             </Link>
           </div>
           <div className="flex flex-wrap">
-            {data.slice(0, 6).map((item, index) => {
-              return <SingleProduct key={index} content={item} />;
-            })}
+            {isLoading && <LoadingIconGray />}
+            {!isLoading &&
+              data?.data?.slice(0, 6).map((item: IBook, index: number) => {
+                return <SingleProduct key={index} content={item} />;
+              })}
           </div>
         </div>
       </section>

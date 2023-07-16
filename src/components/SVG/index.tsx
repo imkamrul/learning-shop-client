@@ -289,26 +289,26 @@ export const GoogleIcon = () => {
       fill="none"
     >
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M33.9792 17.7198C33.9792 16.4912 33.8689 15.3099 33.6641 14.1758H17.3457V20.878H26.6705C26.2689 23.0438 25.0481 24.8788 23.2131 26.1074V30.4548H28.8127C32.089 27.4384 33.9792 22.9966 33.9792 17.7198Z"
         fill="white"
       />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M17.3449 34.6556C22.0231 34.6556 25.9452 33.1041 28.8119 30.4578L23.2123 26.1104C21.6608 27.15 19.6761 27.7643 17.3449 27.7643C12.8322 27.7643 9.01245 24.7165 7.64996 20.6211H1.86133V25.1102C4.71233 30.7729 10.5718 34.6556 17.3449 34.6556Z"
         fill="white"
       />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M7.65107 20.6162C7.30454 19.5766 7.10765 18.4661 7.10765 17.3241C7.10765 16.1822 7.30454 15.0717 7.65107 14.0321V9.54297H1.86244C0.688965 11.882 0.0195312 14.5283 0.0195312 17.3241C0.0195312 20.12 0.688965 22.7663 1.86244 25.1053L7.65107 20.6162Z"
         fill="white"
       />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M17.3449 6.89123C19.8888 6.89123 22.1727 7.76543 23.9684 9.48233L28.938 4.51277C25.9373 1.7169 22.0152 0 17.3449 0C10.5718 0 4.71233 3.88271 1.86133 9.54534L7.64996 14.0345C9.01245 9.93912 12.8322 6.89123 17.3449 6.89123Z"
         fill="white"
       />
@@ -382,12 +382,12 @@ export const UserIcon = () => {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <circle cx="12" cy="6" r="4" stroke="#1C274C" stroke-width="1.5" />
+      <circle cx="12" cy="6" r="4" stroke="#1C274C" strokeWidth="1.5" />
       <path
         d="M19.9975 18C20 17.8358 20 17.669 20 17.5C20 15.0147 16.4183 13 12 13C7.58172 13 4 15.0147 4 17.5C4 19.9853 4 22 12 22C14.231 22 15.8398 21.8433 17 21.5634"
         stroke="#1C274C"
-        stroke-width="1.5"
-        stroke-linecap="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
       />
     </svg>
   );

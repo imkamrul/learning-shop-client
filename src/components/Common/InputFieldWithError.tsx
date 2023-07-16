@@ -6,6 +6,8 @@ type InputFieldWithErrorProps = {
   placeholder: string;
   type: string;
   required: boolean;
+  name: string;
+  handleInputChange: (e: any) => void;
 };
 const InputFieldWithError = ({
   labelValue,
@@ -14,7 +16,9 @@ const InputFieldWithError = ({
   errorMessage,
   placeholder,
   required,
+  handleInputChange,
   type,
+  name,
 }: InputFieldWithErrorProps) => {
   return (
     <>
@@ -29,6 +33,8 @@ const InputFieldWithError = ({
         placeholder={placeholder}
         className="w-full py-[10px] placeholder:text-black pl-3 placeholder:text-sm rounded shadow-sm focus:outline-none"
         id={htmlFor}
+        name={name}
+        onChange={(e) => handleInputChange(e)}
       />
       <p
         className={`text-xs text-[red] pt-[2px] pb-3 ${
