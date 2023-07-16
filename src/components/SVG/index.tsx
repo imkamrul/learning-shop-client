@@ -334,3 +334,115 @@ export const FacebookIcon = () => {
     </svg>
   );
 };
+export const BurgerMenu = () => {
+  return (
+    <svg
+      className="h-6 w-6"
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+      aria-hidden="true"
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={2}
+        d="M4 6h16M4 12h16M4 18h16"
+      />
+    </svg>
+  );
+};
+export const DownArrow = ({ flyer }: { flyer: boolean }) => {
+  return (
+    <svg
+      className={
+        flyer === true
+          ? "transform rotate-180 ml-2 h-5 w-5 text-gray-400 group-hover:text-gray-500 transition ease-out duration-200"
+          : "transform rotate-0 transition ease-out duration-200 ml-2 h-5 w-5 text-gray-400 group-hover:text-gray-500"
+      }
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 20 20"
+      fill="currentColor"
+      aria-hidden="true"
+    >
+      <path
+        fillRule="evenodd"
+        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+        clipRule="evenodd"
+      />
+    </svg>
+  );
+};
+export const UserIcon = () => {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      className="flex-shrink-0 h-6 w-6"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <circle cx="12" cy="6" r="4" stroke="#1C274C" stroke-width="1.5" />
+      <path
+        d="M19.9975 18C20 17.8358 20 17.669 20 17.5C20 15.0147 16.4183 13 12 13C7.58172 13 4 15.0147 4 17.5C4 19.9853 4 22 12 22C14.231 22 15.8398 21.8433 17 21.5634"
+        stroke="#1C274C"
+        stroke-width="1.5"
+        stroke-linecap="round"
+      />
+    </svg>
+  );
+};
+export const CloseIcon = () => {
+  return (
+    <svg
+      className="h-6 w-6"
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+      aria-hidden="true"
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={2}
+        d="M6 18L18 6M6 6l12 12"
+      />
+    </svg>
+  );
+};
+export const LoadingIconGray = (props: {}) => {
+  return (
+    <>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        style={{ margin: "auto" }}
+        width="200"
+        height="200"
+        display="inline-block"
+        {...props}
+        preserveAspectRatio="xMidYMid"
+        viewBox="0 0 100 100"
+      >
+        <circle
+          cx="50"
+          cy="50"
+          r="35"
+          fill="none"
+          stroke="#dfdfdf"
+          strokeDasharray="164.93361431346415 56.97787143782138"
+          strokeWidth="10"
+        >
+          <animateTransform
+            attributeName="transform"
+            dur="1s"
+            keyTimes="0;1"
+            repeatCount="indefinite"
+            type="rotate"
+            values="0 50 50;360 50 50"
+          ></animateTransform>
+        </circle>
+      </svg>
+    </>
+  );
+};
